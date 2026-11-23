@@ -1,97 +1,92 @@
-# Contenus du site de Gauthier.
-# Ce fichier se modifie depuis Pages CMS (app.pagescms.org), pas besoin de l'ouvrir ici.
-
-seo:
-  titre: "Blind test à Paris — Les blind tests pas comme les autres de Gauthier"
-  description: "Soirées blind test à thème dans des bars parisiens (10e, 13e). Des thèmes originaux, une ambiance de bande de potes et des consos à gagner. Privatisation possible."
-  image_partage: "images/partage.jpg"
-
-liens:
-  instagram: "https://www.instagram.com/lesblindtestdegauthier/"
-  facebook: "https://www.facebook.com/groups/981390166461192/"
-
+bars:
+  - nom: La Fût Gueuze
+    frequence: Un lundi sur deux
+    adresse: 24 rue Dumeril, Paris 13e
+    metro: Métro Campo-Formio (5)
+  - nom: Le CamCam' Bar
+    frequence: Le 2e mercredi du mois
+    adresse: 7 rue du Faubourg Saint-Martin, Paris 10e
+    metro: Métro Strasbourg Saint-Denis (4, 8, 9)
+photos:
+  - image: images/soiree-1.jpg
+    description: Une équipe pendant un blind test
+  - image: images/soiree-2.jpg
+    description: Une équipe pendant un blind test
+  - image: images/soiree-3.jpg
+    description: Une équipe pendant un blind test
+  - image: images/soiree-4.jpg
+    description: Une équipe pendant un blind test
+  - image: images/soiree-5.jpg
+    description: Des joueurs pendant une soirée blind test
+  - image: images/soiree-6.jpg
+    description: Une équipe pendant un blind test
+  - image: images/soiree-7.jpg
+    description: Deux joueurs en terrasse avec leur feuille de réponses
+  - image: images/soiree-8.jpg
+    description: Une équipe pendant un blind test
+presentation:
+  titre: Le maître de cérémonie
+  texte: "Gauthier anime des blind tests dans des bars parisiens où l'on revient
+    semaine après semaine. Sa marque de fabrique : des thèmes pensés comme de
+    vraies playlists éditoriales, et une façon de faire d'une salle d'inconnus
+    une petite communauté."
+  photo: images/portrait-gauthier.jpg
+  photo_description: Portrait de Gauthier, animateur des blind tests
 accueil:
-  surtitre: "Blind test à Paris · animé par Gauthier"
-  sous_titre: "Des thèmes que vous n'entendrez nulle part ailleurs et des consos à gagner."
-  photo: "images/gauthier-au-micro.jpg"
-  photo_description: "Gauthier au micro pendant un blind test"
-
+  surtitre: Blind test à Paris · animé par Gauthier
+  sous_titre: Des thèmes que vous n'entendrez nulle part ailleurs et des consos à gagner.
+  photo: images/gauthier-au-micro.jpg
+  photo_description: Gauthier au micro pendant un blind test
+themes:
+  intro: Chaque soirée a son angle. Gauthier construit ses blind tests comme des
+    playlists à thème, avec des fils rouges qui font réfléchir autant que
+    chanter.
+  liste:
+    - Les questions et les réponses
+    - "Années 90 : la France VS l'Angleterre"
+    - Les chansons contestataires
+    - Peace and love
+    - Les chansons géographiques précises
+    - … et les chansons géographiques imprécises
+  classiques: "Et aussi les grands classiques : 100 % français, 100 % rap…"
 deroulement:
   - chiffre: "2"
-    titre: "manches écrites"
-    texte: "Par équipe, stylo en main : on se concerte, on se dispute, on note le titre et l'artiste… et on sèche parfois sur une question bonus farfelue."
+    titre: manches écrites
+    texte: "Par équipe, stylo en main : on se concerte, on se dispute, on note le
+      titre et l'artiste… et on sèche parfois sur une question bonus farfelue."
   - chiffre: "1"
-    titre: "manche criée"
-    texte: "Le premier qui trouve crie la réponse. Rapidité, mauvaise foi et cris de victoire garantis. Et parfois, un vinyle à la clé !"
-  - chiffre: ""   # vide = icône de verre
-    titre: "des consos à gagner"
-    texte: "Les meilleures équipes repartent avec des tournées offertes par le bar."
-
-themes:
-  intro: "Chaque soirée a son angle. Gauthier construit ses blind tests comme des playlists à thème, avec des fils rouges qui font réfléchir autant que chanter."
-  liste:
-    - "Les questions et les réponses"
-    - "Années 90 : la France VS l'Angleterre"
-    - "Les chansons contestataires"
-    - "Peace and love"
-    - "Les chansons géographiques précises"
-    - "… et les chansons géographiques imprécises"
-  classiques: "Et aussi les grands classiques : 100 % français, 100 % rap…"
-
-bars_intro: "Des bars de quartier, des habitués et une ambiance de bande de potes. Le thème de chaque soirée est annoncé à l'avance sur Instagram et dans le groupe Facebook, avec les résultats et les photos des soirées précédentes."
-
-bars:
-  - nom: "La Retraite"
-    frequence: "Tous les mardis"
-    adresse: "55 rue des Vinaigriers, Paris 10e"
-    metro: "Métro Jacques Bonsergent (5)"
-  - nom: "La Fût Gueuze"
-    frequence: "Un lundi sur deux"
-    adresse: "24 rue Dumeril, Paris 13e"
-    metro: "Métro Campo-Formio (5)"
-  - nom: "Le CamCam' Bar"
-    frequence: "Le 2e mercredi du mois"
-    adresse: "7 rue du Faubourg Saint-Martin, Paris 10e"
-    metro: "Métro Strasbourg Saint-Denis (4, 8, 9)"
-
-photos:
-  - image: "images/soiree-1.jpg"
-    description: "Une équipe pendant un blind test"
-  - image: "images/soiree-2.jpg"
-    description: "Une équipe pendant un blind test"
-  - image: "images/soiree-3.jpg"
-    description: "Une équipe pendant un blind test"
-  - image: "images/soiree-4.jpg"
-    description: "Une équipe pendant un blind test"
-  - image: "images/soiree-5.jpg"
-    description: "Des joueurs pendant une soirée blind test"
-  - image: "images/soiree-6.jpg"
-    description: "Une équipe pendant un blind test"
-  - image: "images/soiree-7.jpg"
-    description: "Deux joueurs en terrasse avec leur feuille de réponses"
-  - image: "images/soiree-8.jpg"
-    description: "Une équipe pendant un blind test"
-
+    titre: manche criée
+    texte: Le premier qui trouve crie la réponse. Rapidité, mauvaise foi et cris de
+      victoire garantis. Et parfois, un vinyle à la clé !
+  - titre: des consos à gagner
+    texte: Les meilleures équipes repartent avec des tournées offertes par le bar.
+bars_intro: Des bars de quartier, des habitués et une ambiance de bande de
+  potes. Le thème de chaque soirée est annoncé à l'avance sur Instagram et dans
+  le groupe Facebook, avec les résultats et les photos des soirées précédentes.
 privatisation:
   afficher: true
-  titre: "Un blind test rien que pour vous"
-  texte: "Anniversaire, enterrement de vie de jeune fille ou de garçon, soirée d'équipe ou soirée privée : Gauthier vient avec la musique, le matériel et un thème pensé pour votre groupe."
+  titre: Un blind test rien que pour vous
+  texte: "Anniversaire, enterrement de vie de jeune fille ou de garçon, soirée
+    d'équipe ou soirée privée : Gauthier vient avec la musique, le matériel et
+    un thème pensé pour votre groupe."
   formules:
-    - titre: "Anniversaires"
-      texte: "Chez vous ou dans un bar, entre amis ou en famille."
-    - titre: "EVJF · EVG"
-      texte: "Un thème autour des futurs mariés, fous rires assurés."
-    - titre: "Entreprises"
-      texte: "Team building, afterwork, soirée de fin d'année."
-    - titre: "Soirées privées"
+    - titre: Anniversaires
+      texte: Chez vous ou dans un bar, entre amis ou en famille.
+    - titre: EVJF · EVG
+      texte: Un thème autour des futurs mariés, fous rires assurés.
+    - titre: Entreprises
+      texte: Team building, afterwork, soirée de fin d'année.
+    - titre: Soirées privées
       texte: "Crémaillère, fête entre amis ou en famille : on lance la soirée."
-
-presentation:
-  titre: "Le maître de cérémonie"
-  texte: "Gauthier anime des blind tests dans des bars parisiens où l'on revient semaine après semaine. Sa marque de fabrique : des thèmes pensés comme de vraies playlists éditoriales, et une façon de faire d'une salle d'inconnus une petite communauté."
-  photo: "images/portrait-gauthier.jpg"
-  photo_description: "Portrait de Gauthier, animateur des blind tests"
-
 contact:
-  intro: "Vous tenez un bar et cherchez une soirée qui fidélise ? Vous voulez privatiser un blind test ? Écrivez-moi, je réponds vite."
-  cle_web3forms: ""
+  intro: Vous tenez un bar et cherchez une soirée qui fidélise ? Vous voulez
+    privatiser un blind test ? Écrivez-moi, je réponds vite.
+liens:
+  instagram: https://www.instagram.com/lesblindtestdegauthier/
+  facebook: https://www.facebook.com/groups/981390166461192/
+seo:
+  titre: Blind test à Paris — Les blind tests pas comme les autres de Gauthier
+  description: Soirées blind test à thème dans des bars parisiens (10e, 13e). Des
+    thèmes originaux, une ambiance de bande de potes et des consos à gagner.
+    Privatisation possible.
+  image_partage: images/partage.jpg
