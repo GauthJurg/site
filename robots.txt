@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lesblindtestdegauthier.fr/sitemap.xml

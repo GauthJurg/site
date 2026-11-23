@@ -1,0 +1,6 @@
+# Réglages techniques du site (à ne pas modifier au quotidien)
+title: "Les blind tests pas comme les autres de Gauthier"
+url: "https://lesblindtestdegauthier.fr"
+lang: fr
+exclude:
+  - README.md
