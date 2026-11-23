@@ -10,7 +10,7 @@ bars:
 photos:
   - image: images/soiree-au-comptoir_1.jpg
     description: Une équipe pendant un blind test
-  - image: images/soiree-2.jpg
+  - image: images/soiree-1.jpg
     description: Une équipe pendant un blind test
   - image: images/soiree-3.jpg
     description: Une équipe pendant un blind test
@@ -18,7 +18,7 @@ photos:
     description: Une équipe pendant un blind test
   - image: images/soiree-camcam_1.jpg
     description: Des joueurs pendant une soirée blind test
-  - image: images/soiree-6.jpg
+  - image: images/soiree-5.jpg
     description: Une équipe pendant un blind test
   - image: images/soiree-7.jpg
     description: Deux joueurs en terrasse avec leur feuille de réponses
