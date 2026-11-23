@@ -1,0 +1,108 @@
+# Interface d'administration Pages CMS (app.pagescms.org)
+# Décrit les champs que Gauthier voit et peut modifier.
+
+media:
+  input: images
+  output: images
+
+content:
+  - name: site
+    label: Contenus du site
+    type: file
+    path: _data/site.yml
+    format: yaml
+    fields:
+
+      - name: bars
+        label: "Bars (où jouer)"
+        type: object
+        list: true
+        fields:
+          - { name: nom, label: Nom du bar, type: string, required: true }
+          - { name: frequence, label: "Fréquence (ex. Tous les mardis)", type: string, required: true }
+          - { name: adresse, label: "Adresse (ex. 55 rue des Vinaigriers, Paris 10e)", type: string }
+          - { name: metro, label: "Métro (ex. Métro Jacques Bonsergent (5))", type: string }
+
+      - name: photos
+        label: Photos de soirées
+        type: object
+        list: true
+        fields:
+          - { name: image, label: Photo, type: image, required: true }
+          - { name: description, label: "Description courte (pour Google et les malvoyants)", type: string, required: true }
+
+      - name: presentation
+        label: "Qui est Gauthier ?"
+        type: object
+        fields:
+          - { name: titre, label: Titre, type: string }
+          - { name: texte, label: Texte de présentation, type: text }
+          - { name: photo, label: Photo portrait, type: image }
+          - { name: photo_description, label: Description de la photo, type: string }
+
+      - name: accueil
+        label: Haut de page
+        type: object
+        fields:
+          - { name: surtitre, label: Petit texte au-dessus du titre, type: string }
+          - { name: sous_titre, label: Phrase sous le titre, type: text }
+          - { name: photo, label: Grande photo, type: image }
+          - { name: photo_description, label: Description de la photo, type: string }
+
+      - name: themes
+        label: Thèmes
+        type: object
+        fields:
+          - { name: intro, label: Texte d'introduction, type: text }
+          - { name: liste, label: Exemples de thèmes, type: string, list: true }
+          - { name: classiques, label: Phrase sous les thèmes, type: string }
+
+      - name: deroulement
+        label: "Déroulé d'une soirée (3 cartes)"
+        type: object
+        list: true
+        fields:
+          - { name: chiffre, label: "Grand chiffre (vide = icône de verre)", type: string }
+          - { name: titre, label: Titre, type: string }
+          - { name: texte, label: Texte, type: text }
+
+      - name: bars_intro
+        label: Texte d'introduction des bars
+        type: text
+
+      - name: privatisation
+        label: Privatisation
+        type: object
+        fields:
+          - { name: afficher, label: Afficher la rubrique privatisation, type: boolean }
+          - { name: titre, label: Titre, type: string }
+          - { name: texte, label: Texte, type: text }
+          - name: formules
+            label: Formules
+            type: object
+            list: true
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: Texte, type: string }
+
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - { name: intro, label: Texte au-dessus du formulaire, type: text }
+          - { name: cle_web3forms, label: "Clé Web3Forms (reçue par mail, ne pas modifier)", type: string }
+
+      - name: liens
+        label: Liens réseaux sociaux
+        type: object
+        fields:
+          - { name: instagram, label: Lien Instagram, type: string }
+          - { name: facebook, label: Lien groupe Facebook, type: string }
+
+      - name: seo
+        label: Google (titre et description)
+        type: object
+        fields:
+          - { name: titre, label: "Titre affiché dans Google (60 caractères max.)", type: string }
+          - { name: description, label: "Description affichée dans Google (160 caractères max.)", type: text }
+          - { name: image_partage, label: "Image d'aperçu (WhatsApp, Facebook…)", type: image }
